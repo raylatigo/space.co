@@ -1,0 +1,36 @@
+body {
+    font-family: "Andale Mono", monospace;
+}
+
+h1, h2, h3 {
+    font-family: "Andale Mono", cursive;
+}
+
+h2 {
+    color:rgb(243, 222, 164)
+}
+header h2 {
+    color: rgb(243, 222, 164)
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(224, 215, 171), rgb(122, 198, 211) );
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px
+}
+
+.navbar {
+    background-color: rgb(241, 209, 167)
+}
