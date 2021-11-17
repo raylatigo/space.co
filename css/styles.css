@@ -15,7 +15,8 @@ header h2 {
 
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image:linear-gradient(to right, rgb(224, 215, 171), rgb(122, 198, 211) );
+    color: rgb(64, 98, 112);
     padding: 20px 0;
 }
 
