@@ -114,24 +114,48 @@
                     <div class="card_image"><img src="img/community.jpg"></div>
                     <div class="card_content">
                         <h2 class="card_title">Community Membership</h2>
-                        <p class="card_text">Get access to the community portal as well as invitations to our events.
+                        <p class="card_text">Get access to the community portal as well as invitations to our events for only $5.00.
                         </p>
                         <button class="btn card_btn" data-toggle="modal" data-target="#exampleModal">Sign-Up</button>
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="payment" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="payment">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                  <h5 class="modal-title" id="exampleModalLabel">Payment Details</h5>
+                                  
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                   </button>
                                 </div>
                                 <div class="modal-body">
-                                  ...
+                                    <div class="form-group row">
+                                        <label for="email" class="col-sm-6 col-form-label">E-mail</label>
+                                        <div class="col-sm-6">
+                                            <input name="name" class="form-control" id="typeEmail" placeholder="E-mail">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cardNumber" class="col-sm-6 col-form-label">Card Number</label>
+                                        <div class="col-sm-6">
+                                            <input name="cardNumber" class="form-control" id="typeCardNumber" placeholder="1234 5678 435678">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cardNumber" class="col-sm-6 col-form-label">Expiration</label>
+                                        <div class="col-sm-6">
+                                            <input name="expire" class="form-control" id="typeExpire" placeholder="MM/YYYY">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cardNumber" class="col-sm-6 col-form-label">CVV/CVC</label>
+                                        <div class="col-sm-6">
+                                            <input name="cardSecurity" class="form-control" id="typeCadSecurity" placeholder="..........">
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                  <button type="button" class="btn btn-primary">Pay</button>
                                 </div>
                               </div>
                             </div>
